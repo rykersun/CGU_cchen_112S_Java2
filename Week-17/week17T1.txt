@@ -1,0 +1,12 @@
+If one of the statements inside the try block throws an exception,
+Java skips the remaining statements in the try block and starts the process of finding the code to handle the exception.
+The code that handles the exception is called the exception handler.
+It is found by propagating the exception backward through a chain of method calls starting from the current method
+Each catch block is examined in turn, from first to last, 
+to see whether the type of the exception object is an instance of the exception class in the catch block.
+If so, the exception object is assigned to the variable declared, and the code in the catch block is executed. 
+If no handler is found, Java exits this method, passes the exception to 
+the method that invoked the method, and continues the same process to find a handler. 
+If no handler is found in the chain of methods being invoked, 
+the program terminates and prints an error message on the console. 
+The process of finding a handler is called catching an exception.
