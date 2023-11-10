@@ -9,3 +9,7 @@
 # Please don't...
 
 最好不要讓老師知道有這個鬼東西。
+
+# TODO
+
+- 完成 Week-1 的 chatGPT 建議
