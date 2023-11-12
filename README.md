@@ -13,3 +13,4 @@
 # TODO
 
 - 完成 Week-1 的 chatGPT 建議
+- 寫 Week-2 的註解
